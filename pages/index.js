@@ -74,9 +74,7 @@ export default function Home() {
           onChange={handleOnChange}
           onSubmit={handleOnSubmit}
         >
-          <p>
-            <input type="file" name="file" />
-          </p>
+          <input type="file" name="file" accept="image/*" />
 
           <img src={imageSrc} />
 
