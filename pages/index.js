@@ -75,7 +75,21 @@ export default function Home() {
           onSubmit={handleOnSubmit}
         >
           <p>
-            <input type="file" name="file" accept="image/*" />
+            {/* <input type="file" name="file" accept="image/*" /> */}
+            <input
+              style={{ display: 'none' }}
+              type="file"
+              name="file"
+              id="file"
+              accept="image/*"
+            />
+            <label htmlFor="file">
+              <img
+                src="https://raw.githubusercontent.com/safak/youtube2022/react-chat/src/img/addAvatar.png"
+                alt=""
+              />
+              <span>Add Images</span>
+            </label>
           </p>
 
           <img src={imageSrc} />

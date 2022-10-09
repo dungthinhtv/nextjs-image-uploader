@@ -48,6 +48,19 @@
   code {
     text-align: left;
   }
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #8da4f1;
+    font-size: 1em;
+    cursor: pointer;
+
+    img {
+      width: 32px;
+    }
+  }
 }
 
 .footer {
