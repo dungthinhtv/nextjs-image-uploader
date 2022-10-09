@@ -88,7 +88,7 @@ export default function Home() {
                 src="https://raw.githubusercontent.com/safak/youtube2022/react-chat/src/img/addAvatar.png"
                 alt=""
               />
-              <span>Add Images</span>
+              <span>Add Image</span>
             </label>
           </p>
 
